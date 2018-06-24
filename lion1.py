@@ -25,7 +25,6 @@ class main:
         result = a.fetchall()
 
         if result:
-            os.system("python lion3.py ")
             self.username.set('')
             self.password.set('')
 
